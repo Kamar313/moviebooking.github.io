@@ -1,0 +1,132 @@
+*{
+
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+}
+
+.d-none{
+
+display: none;
+
+}
+
+.v-none{
+
+visibility: hidden;
+
+}
+
+.booking-grid {
+
+display: grid;
+
+grid-template-columns: 150px 150px 150px 150px;
+
+grid-template-rows: 150px 150px 150px 150px;
+
+}
+
+.grid-parent {
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-around;
+
+}
+
+.selected-seat {
+
+border:4px outset rgb(0, 0, 0)
+
+}
+
+.grid-item {
+
+margin: 10px;
+
+font-size: 30px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+.available-seat {
+
+background-color: green;
+
+}
+
+.unavailable-seat {
+
+pointer-events: none;
+
+cursor: default;
+
+background-color: red;
+
+}
+
+.movie-img-wrapper {
+
+background-size: contain;
+
+height: 300px;
+
+width: 200px;
+
+background-repeat: no-repeat;
+
+}
+
+.logo {
+
+margin-right: auto;
+
+}
+
+header li {
+
+list-style: none;
+
+display: inline-block;
+
+padding: 0 12px;
+
+}
+
+.movie-holder {
+
+display: flex;
+
+justify-content: space-around;
+
+}
+
+header {
+
+display: flex;
+
+justify-content: flex-end;
+
+align-items: center;
+
+padding: 12px 16px;
+
+background-color: blue;
+
+color: white;
+
+box-shadow: 0 1px 16px #ddd;
+
+}
+
